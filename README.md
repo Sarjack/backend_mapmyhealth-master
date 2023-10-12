@@ -7,7 +7,7 @@ A medical platform that allows doctors and patients to store and access medical 
 
 ## Team Name
 
-#NO_INTERN
+#DEV DYNAMOS
 
 
 ## Problem
