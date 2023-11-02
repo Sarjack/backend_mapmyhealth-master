@@ -48,7 +48,7 @@ exports.register = async (req, res) => {
     //   "30m"
     // );
     const url = `${process.env.BASE_URL}/activate/${patient?._id}`;
-    sendVerificationEmail(patient?.email, patient?.name, url);
+    //sendVerificationEmail(patient?.email, patient?.name, url);
     const token = generateToken({ id: patient?._id.toString() }, "7d");
     res.send({
       id: patient?._id,
